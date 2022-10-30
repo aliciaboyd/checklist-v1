@@ -196,3 +196,11 @@ input[type="checkbox"]:checked::before {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}

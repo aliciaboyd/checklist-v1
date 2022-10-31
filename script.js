@@ -17,6 +17,10 @@ displayDay.innerHTML = todaysDate;
 
 // LIST
 function newListItem(userTextInput) {
+  if (userTextInput.value === '') {
+    return;
+  }
+  
   let listElement = document.createElement('li');
   listElement.classList.add('list-item');
 

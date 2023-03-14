@@ -168,6 +168,20 @@ input[type="checkbox"]:checked::before {
     overflow: scroll;
   }
 
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--lt-brown);
+  }
+
+  ::-webkit-scrollbar {
+    background-color: var(--off-white);
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background-color: var(--off-white);
+
+  }
+
   header {
     flex-direction: row;
     width: 100%;
